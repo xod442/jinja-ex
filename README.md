@@ -14,7 +14,7 @@ Installation:
 Works well with docker-desktop. This app is running in a single container.
 
 ```
-% git clone https://github.com/aruba/jinja-ex.git
+% git clone https://github.com/xod442/jinja-ex.git
 % cd jinja-ex
 jinja-ex%  docker-compose up -d
 ```
