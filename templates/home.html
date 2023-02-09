@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+          <h1>List of People</h1>
+            <div>
+              <table>
+                <thead class="text-capitalize">
+                  <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Height</th>
+                    <th>Weight</th>
+                    <th>Hair</th>
+                    <th>Eyes</th>
+
+                  </tr>
+                </thead>
+                <hr>
+                <tbody>
+                 {% for person in data %}
+                 <tr>
+                   <td>{{person[0]}}</td>
+                   <td>{{person[1]}}</td>
+                   <td>{{person[2]}}</td>
+                   <td>{{person[3]}}</td>
+                   <td>{{person[4]}}</td>
+                   <td>{{person[5]}}</td>
+                 </tr>
+                 {% endfor %}
+               </tbody>
+              </table>
+           </div>
+           <hr>
+          {{ message }}
+  {% endblock %}

@@ -1,0 +1,6 @@
+Bob,42,6-1,190,Brown,Brown
+Sally,15,5-11,109,Blonde,Blue
+Sam,87,5-0,101,Black,Green
+Julie,23,4-11,110,Red,Blue
+Spot,7,1,15,Brown,Brown
+Rick,63,6-1,200,Brown,Brown
